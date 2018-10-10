@@ -1,0 +1,120 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  border-style: solid;
+  border-color: black;
+  border-radius: 12vw;
+  position: absolute;
+  height: 100%;
+  width: 60%;
+}
+.Inputs-value {
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  height: 80.5%;
+  position: absolute;
+  margin-top: 8vw;
+  margin-left: 3vw;
+}
+.structure1 {
+  border-style: solid;
+  border-color: black;
+  border-radius: 30vw;
+  width: 20%;
+  height: 1vw;
+  position: absolute;
+  margin-top: 2.5vw;
+  margin-left: 22vw;
+}
+.structure2 {
+  border-style: solid;
+  border-color: black;
+  border-radius: 30vw;
+  width: 15%;
+  height: 3vw;
+  position: absolute;
+  margin-top: 76vw;
+  margin-left: 24vw;
+}
+.structure3 {
+  border-style: solid;
+  border-color: black;
+  width: 8%;
+  height: 3vw;
+  position: absolute;
+  margin-top: 76vw;
+  margin-left: 9vw;
+}
+.structure4 {
+  border-style: solid;
+  border-color: black;
+
+  width: 8%;
+  height: 3vw;
+  position: absolute;
+  margin-top: 76vw;
+  margin-left: 43vw;
+}
+input {
+  width: 10vw;
+  height: 20vw;
+  border-radius: 12vw;
+  border: none;
+  font-size: 8vw;
+  margin-left: 5vw;
+  margin-top: 15vw;
+}
+span {
+  font-size: 10vw;
+  margin-top: 18vw;
+}
+.Title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8vw;
+}
+.button1 {
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 2vw;
+  border-color: aquamarine;
+  position: absolute;
+  top: 45vw;
+  left: 4vw;
+  width: 15vw;
+  height: 10vw;
+}
+.button2 {
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 2vw;
+  border-color: orange;
+  position: absolute;
+  top: 45vw;
+  left: 32vw;
+  width: 15vw;
+  height: 10vw;
+}
+.heure {
+  position: relative;
+  left: 5vw;
+  top: 20vw;
+  font-size: 6vw;
+}
+.minute {
+  position: relative;
+  left: 3vw;
+  top: 20vw;
+  font-size: 6vw;
+}
+.second {
+  position: relative;
+  left: -4vw;
+  top: 20vw;
+  font-size: 6vw;
+}
